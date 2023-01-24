@@ -1,0 +1,43 @@
+{
+    "name": "serverless-ts-starter",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Nichita Sindie",
+    "license": "MIT",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production",
+        "commit": "cz",
+        "prepare": "husky install"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.4.2",
+        "@commitlint/config-conventional": "^17.4.2",
+        "@fastify/aws-lambda": "^3.2.0",
+        "@types/node": "^18.11.18",
+        "commitizen": "^4.3.0",
+        "cz-conventional-changelog": "^3.3.0",
+        "dotenv-webpack": "^8.0.1",
+        "husky": "^8.0.0",
+        "node-polyfill-webpack-plugin": "^2.0.1",
+        "nodemon-webpack-plugin": "^4.8.1",
+        "pino-pretty": "^9.1.1",
+        "prettier": "^2.8.3",
+        "serverless": "^3.26.0",
+        "terser-webpack-plugin": "^5.3.6",
+        "ts-loader": "^9.4.2",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.9.4",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1",
+        "webpack-dev-server": "^4.11.1"
+    },
+    "dependencies": {
+        "fastify": "^4.12.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
