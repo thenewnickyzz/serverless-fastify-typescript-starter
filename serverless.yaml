@@ -1,0 +1,13 @@
+service: serverless-ts-starter
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  region: eu-central-1
+  runtime: nodejs18.x
+
+functions:
+  api:
+    handler: dist/bundle.handler
+    events:
+      - httpApi: '*'
