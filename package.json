@@ -1,8 +1,12 @@
 {
-    "name": "serverless-ts-starter",
+    "name": "serverless-fastify-typescript-starter",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "dist/bundle.js",
     "author": "Nichita Sindie",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thenewnickyzz/serverless-fastify-typescript-starter"
+    },
     "license": "MIT",
     "scripts": {
         "dev": "webpack --mode development",
