@@ -6,6 +6,11 @@ provider:
   region: eu-central-1
   runtime: nodejs18.x
 
+package:
+  patterns:
+    - '!./**'
+    - ./dist/bundle.js
+
 functions:
   api:
     handler: dist/bundle.handler
