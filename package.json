@@ -16,7 +16,7 @@
         "prepare": "husky install"
     },
     "devDependencies": {
-        "@commitlint/cli": "^17.4.4",
+        "@commitlint/cli": "^17.6.1",
         "@commitlint/config-conventional": "^17.4.4",
         "@fastify/aws-lambda": "^3.2.0",
         "@types/node": "^18.15.10",
