@@ -36,7 +36,7 @@
         "webpack-dev-server": "^4.13.1"
     },
     "dependencies": {
-        "fastify": "^4.14.1"
+        "fastify": "^4.17.0"
     },
     "config": {
         "commitizen": {
